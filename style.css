@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Roboto', sans-serif;
+}
+.cointainar{
+    position: relative;
+    background: url(./OU7NAl.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.main{
+    background: rgba(255, 255, 255, 0.185);
+    padding: 50px;
+    text-align: center;
+    max-width: 400px;
+    border-radius: 20px;
+backdrop-filter:blur(10px);
+-webkit-backdrop-filter:blur(10px);
+-moz-backdrop-filter:blur(10px);
+}
+.main input{
+  background: none;
+  outline: none;
+ width:300px ;
+ height: 30px;
+ padding: 5px;
+ border-radius: 8px;
+ border: solid 2px;
+  
+}
+.main button{
+  background: rgb(0, 174, 255);
+  outline: none;
+ width:90px ;
+ color: white;
+ height: 30px;
+ padding: 5px;
+ border-radius: 8px;
+ border: none;
+ margin: 20px;
+  
+}
+.main img{
+height: 100px;
+  
+}
+
+
+.name{
+margin-bottom: 100px;
+color: white;
+font-weight: 900;
+font-size: 50px;
+}
